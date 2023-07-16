@@ -1,10 +1,10 @@
 package paquete004;
 
 public class PagoAguaPotable extends Pago {
-    public String tipo;
-    public double tarifaFija;
-    public double metrosCubicosConsumo;
-     public double costoConsumoCubicos;
+    private String tipo;
+    private double tarifaFija;
+    private double metrosCubicosConsumo;
+    private double costoConsumoCubicos;
 
     public PagoAguaPotable(String tipo, double tarifaFija, double metrosCubicosConsumo, double costoConsumoCubicos) {
         this.tipo = tipo;

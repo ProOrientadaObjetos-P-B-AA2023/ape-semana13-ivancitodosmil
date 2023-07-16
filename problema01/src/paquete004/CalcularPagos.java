@@ -3,7 +3,7 @@ package paquete004;
 import java.util.ArrayList;
 
 public class CalcularPagos {
-    public ArrayList<Pago> pagos;
+     private ArrayList<Pago> pagos;
 
     public CalcularPagos(ArrayList<Pago> pagos) {
         this.pagos = pagos;

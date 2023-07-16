@@ -1,19 +1,19 @@
 package paquete002;
 
 public class Propiedad{
-    public double costoPropiedad;
+    public double costopropiedad;
 
-    public Propiedad(double costoPropiedad) {
-        this.costoPropiedad = costoPropiedad;
+    public Propiedad(double costopropiedad) {
+        this.costopropiedad = costopropiedad;
     }
 
-    public void setCostoPropiedad(double costoPropiedad) {
-        this.costoPropiedad = costoPropiedad;
+    public void setCostopropiedad(double costopropiedad) {
+        this.costopropiedad = costopropiedad;
     }
 
     @Override
     public String toString() {
-        return "Propiedad{" + "costoPropiedad=" + costoPropiedad + '}';
+        return "Propiedad{" + "costoPropiedad=" + costopropiedad + '}';
     }
     
 }

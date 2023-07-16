@@ -1,9 +1,9 @@
 package paquete004;
 
 public class PagoTelefonoConvencional extends Pago {
-    public double tarifa;
-    public double minutosConsumidos;
-    public double costoMinuto;
+    private double tarifa;
+    private double minutosConsumidos;
+    private double costoMinuto;
 
     public PagoTelefonoConvencional(double tarifa, double minutosConsumidos, double costoMinuto) {
         this.tarifa = tarifa;

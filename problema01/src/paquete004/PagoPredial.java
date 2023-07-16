@@ -12,7 +12,7 @@ public class PagoPredial extends Pago{
     }
 
     public double ObtenerPago(){
-        return( propiedad.costoPropiedad - ((propiedad.costoPropiedad*porcentaje)/100));
+        return( propiedad.costopropiedad - ((propiedad.costopropiedad*porcentaje)/100));
     }
 
     @Override

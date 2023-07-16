@@ -1,14 +1,14 @@
 package paquete002;
 
 public class Ciudad {
-    String nombreCiudad;
+    String nombreciudad;
 
-    public Ciudad(String nombreCiudad) {
-        this.nombreCiudad = nombreCiudad;
+    public Ciudad(String nombreciudad) {
+        this.nombreciudad = nombreciudad;
     }
 
     @Override
     public String toString() {
-        return "Ciudad{" + "nombreCiudad=" + nombreCiudad + '}';
+        return "Ciudad{" + "nombreciudad=" + nombreciudad + '}';
     }
 }
