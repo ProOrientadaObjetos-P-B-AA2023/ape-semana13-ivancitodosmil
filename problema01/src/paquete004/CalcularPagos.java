@@ -12,7 +12,7 @@ public class CalcularPagos {
     public double CalcularPagosTotal(){
         double sumaPagos=0;
         for(Pago pago: pagos){
-            sumaPagos=sumaPagos+pago.pago;
+            sumaPagos=sumaPagos+pago.ObtenerPago();
         }
         return sumaPagos;
     }

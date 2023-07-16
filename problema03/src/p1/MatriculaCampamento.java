@@ -11,7 +11,7 @@ public class MatriculaCampamento extends Matricula{
         this.costoinstructores = costoinstructores;
     }
 
-    public double getTarifa(){
+    public double ObtenerTarifa(){
         return (costotransporte + costocomida + costoinstructores); 
     }
  

@@ -16,11 +16,11 @@ public Ciudad ciudad;
         this.ciudad = ciudad;
     }
 
-    public void calcularPago() {
+    public double ObtenerPago() {
         if (ciudad.equals("Loja")) {
-            pago = tarifaBase + (kilovatiosConsumidos * costoKilovatio / 2);
+             return(tarifaBase + (kilovatiosConsumidos * costoKilovatio / 2));
         } else {
-            pago = tarifaBase + (kilovatiosConsumidos * costoKilovatio);
+            return(tarifaBase + (kilovatiosConsumidos * costoKilovatio));
         }
     }
 

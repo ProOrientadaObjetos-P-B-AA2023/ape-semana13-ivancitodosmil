@@ -13,11 +13,11 @@ public class PagoAguaPotable extends Pago {
         this.costoConsumoCubicos = costoConsumoCubicos;
     }
      
-    public void calcularPago(){
+    public double ObtenerPago(){
         if(tipo.equals("comercial")){
-            pago = tarifaFija + (metrosCubicosConsumo * costoConsumoCubicos) + 15;
+            return(tarifaFija + (metrosCubicosConsumo * costoConsumoCubicos) + 15);
         }else{
-            pago = tarifaFija + (metrosCubicosConsumo * costoConsumoCubicos);
+            return(tarifaFija + (metrosCubicosConsumo * costoConsumoCubicos));
         }
     }
 

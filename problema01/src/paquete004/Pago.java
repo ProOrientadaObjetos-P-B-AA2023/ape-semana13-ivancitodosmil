@@ -1,12 +1,11 @@
 package paquete004;
 
 public abstract class Pago {
-    public double pago;
-   
-    public abstract void calcularPago();
+    
+    public abstract double ObtenerPago();
 
     @Override
     public String toString() {
-        return "Pago{" + "pago=" + pago + '}';
+        return "Pago{El pago es: " +ObtenerPago()+ '}';
     }
 }

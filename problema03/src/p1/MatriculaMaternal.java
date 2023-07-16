@@ -11,7 +11,7 @@ public class MatriculaMaternal extends Matricula{
         this.costomedico = costomedico;
     }
 
-     public double getTarifa(){
+     public double ObtenerTarifa(){
         return (costodesayunos+costoalmuerzo+costomedico); 
     }
 

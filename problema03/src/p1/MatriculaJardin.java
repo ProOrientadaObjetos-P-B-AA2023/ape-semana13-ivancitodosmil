@@ -11,7 +11,7 @@ public class MatriculaJardin extends Matricula{
         this.costopaseos = costopaseos;
     }
 
-    public double getTarifa(){
+    public double ObtenerTarifa(){
         return (costodesayunos+costolibros+costopaseos); 
     }
 

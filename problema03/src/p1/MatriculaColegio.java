@@ -1,4 +1,5 @@
 package p1;
+
 public class MatriculaColegio extends Matricula{
     private double costodeportes;
     private double costofolletos;
@@ -12,7 +13,7 @@ public class MatriculaColegio extends Matricula{
         this.costolaboratorios = costolaboratorios;
     }
   
-    public double getTarifa(){
+    public double ObtenerTarifa(){
         return (costodeportes + costofolletos + costouniformes + costolaboratorios); 
     }
 

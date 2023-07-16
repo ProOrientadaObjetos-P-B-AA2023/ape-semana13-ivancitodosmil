@@ -58,7 +58,7 @@ public class Principal {
         }
         
         for(Pago calcularpago: pagos)
-            calcularpago.calcularPago();
+            calcularpago.ObtenerPago();
 
         CalcularPagos totalpagos= new CalcularPagos(pagos);
         Persona persona= new Persona("Iván", "González", 20,"1105658502",ciudad1);

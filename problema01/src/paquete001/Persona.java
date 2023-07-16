@@ -2,11 +2,11 @@ package paquete001;
 import paquete002.Ciudad;
 
 public class Persona {
-    String nombre;
-    String apellido;
-    int edad;
-    String cedula;
-    public Ciudad ciudad;
+    private String nombre;
+    private String apellido;
+    private int edad;
+    private String cedula;
+    private Ciudad ciudad;
 
     public Persona(String nombre, String apellido, int edad, String cedula, Ciudad ciudad) {
         this.nombre = nombre;

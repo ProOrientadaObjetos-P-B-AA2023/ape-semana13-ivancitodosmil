@@ -13,7 +13,7 @@ public class MatriculaEscuela extends Matricula{
         this.costouniformes = costouniformes;
     }
 
-    public double getTarifa(){
+    public double ObtenerTarifa(){
         return (costolibros+costodeportes+costofolletos+costouniformes); 
     }
 

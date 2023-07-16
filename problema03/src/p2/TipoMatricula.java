@@ -13,7 +13,7 @@ public class TipoMatricula {
     public double ObtenerPromedioTarifas(){
         double promedioMatriculas=0;
         for (Matricula matricula:matriculas){
-            promedioMatriculas=promedioMatriculas+matricula.getTarifa();
+            promedioMatriculas=promedioMatriculas+matricula.ObtenerTarifa();
         }
         return promedioMatriculas/matriculas.size();
     }
